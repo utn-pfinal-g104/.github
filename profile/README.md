@@ -4,7 +4,7 @@ Por ahora en el server linux esta todo abierto:
 
 API:       http://20.115.17.201:5000/  
 WEBAPP:    http://20.115.17.201:3000/  
-DB         20.115.17.201,1433    
+DB         20.115.17.201,1334    
 STORAGE    http://20.115.17.201:10000/  
 
 
