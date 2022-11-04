@@ -40,6 +40,12 @@ exit
 ```
 en la consola.
 
+## Para reiniciar todos los deploys del server y arrancar con todo en cero
+Entran por ssh como para los logs, y una vez ahi corren:
+``` bash
+sudo docker-compose --file ~/pictogar/docker-compose.yml down && sudo docker-compose --file ~/pictogar/docker-compose.yml up 
+```
+
 ### Importante:  
 El server solo esta prendido entre las 11AM y las 11PM, fuera de ese rango esta apagado pero lo pueden startear a mano desde el Azure Portal
 
