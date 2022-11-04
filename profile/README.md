@@ -3,7 +3,7 @@
 Por ahora en el server linux esta todo abierto:  
 
 API:       http://20.115.17.201:5080/  
-WEBAPP:    http://20.115.17.201:3000/  
+WEBAPP:    http://20.115.17.201 (puerto 80 default)  
 DB         20.115.17.201,1334    
 STORAGE    http://20.115.17.201:10000/  
 
