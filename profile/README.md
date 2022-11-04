@@ -29,7 +29,7 @@ password: qweQWE123!@#
 
 Una vez dentro del server corremos el siguiente comando
 ``` bash
-sudo docker-compose --file ./pictogar/docker-compose.yml logs -f -t pictogar-api
+sudo docker-compose --file ~/pictogar/docker-compose.yml logs -f -t pictogar-api
 ``` 
 pictogar-api puede ser reemplazado por pictogar-web, pictogar-database o pictogar-storage.
 Tambien se puede dejar vacio y se veran los logs de todo en simultaneo.
