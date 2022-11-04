@@ -22,3 +22,6 @@ Y listo despues de esto ya pueden pullear las imagenes del registry
 
 ### Importante:  
 El server solo esta prendido entre las 11AM y las 11PM, fuera de ese rango esta apagado pero lo pueden startear a mano desde el Azure Portal
+
+### Inicializacion:
+Ejecutar el endpoint /pictogramas/guardar para descargar de arasaac todos los pictogramas en la db y el storage (Solo una vez)
