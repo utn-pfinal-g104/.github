@@ -41,6 +41,7 @@ exit
 en la consola.
 
 ## Para reiniciar todos los deploys del server y arrancar con todo en cero
+(Esto borra todos los pictogramas, la base de datos, y lo vuelve a crear vacio.)
 Entran por ssh como para los logs, y una vez ahi corren:
 ``` bash
 sudo docker-compose --file ~/pictogar/docker-compose.yml down && sudo docker-compose --file ~/pictogar/docker-compose.yml up 
